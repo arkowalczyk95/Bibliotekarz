@@ -42,7 +42,7 @@ public class Samochod {
 
     }
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         Samochod s = new Samochod("srebrny", "KR0001", "punto", "fiat", 190,
                 new Silnik("silnik", 250, 1500, "fiat", 6000),
                 new SkrzyniaBiegow("skrzynia", 100, 2500, "fiat", 7),
@@ -52,5 +52,5 @@ public class Samochod {
                 new Silnik("silnik2", 300, 3000, "opel", 7000),
                 new SkrzyniaBiegow("skrzynia2", 150, 4000, "opel", 7),
                 new Kolo("koło2", 12, 500, "Debica", 26));
-    }*/
+    }
 }
