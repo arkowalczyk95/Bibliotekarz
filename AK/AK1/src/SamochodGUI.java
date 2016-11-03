@@ -16,12 +16,13 @@ public class SamochodGUI {
     private JButton włączButton;
     private JButton wyłączButton;
 
-
     public SamochodGUI() {
         włączButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Klik klak Włącz!");
+                textField1.setText("Ruszam");
+                textField2.setText("Jałowy");
             }
         });
     }
