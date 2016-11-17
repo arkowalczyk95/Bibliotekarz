@@ -8,8 +8,14 @@ public class SkrzyniaBiegow extends Komponent {
         this.iloscBiegow = iloscBiegow;
     }
 
-    public void zmienBieg() {
+    public void zwieszBieg() {
+        aktualnyBieg = aktualnyBieg + 1;
+        if (aktualnyBieg > iloscBiegow) aktualnyBieg = iloscBiegow;
+    }
 
+    public void zmniejszBieg() {
+        aktualnyBieg = aktualnyBieg - 1;
+        if (aktualnyBieg < 0) aktualnyBieg = 0;
     }
 
     public void obliczPrzelozenie() {
