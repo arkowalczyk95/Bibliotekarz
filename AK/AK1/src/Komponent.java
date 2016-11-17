@@ -13,10 +13,12 @@ public abstract class Komponent {
     }
 
     public String getNazwa() {
+
         return nazwa;
     }
 
     public double getWaga() {
+
         return waga;
     }
 
@@ -25,6 +27,7 @@ public abstract class Komponent {
     }
 
     public String getProducent() {
+
         return producent;
     }
 }

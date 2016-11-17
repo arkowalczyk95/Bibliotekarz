@@ -22,8 +22,7 @@ public class Silnik extends Komponent {
     public void zwiekszObroty() {
         obroty = obroty + 100;
         if (obroty > maxObroty) obroty = maxObroty;
-        System.out.println("obroty = " + obroty
-        );
+        System.out.println("obroty = " + obroty);
     }
 
     public void zmniejszObroty() {
@@ -32,10 +31,7 @@ public class Silnik extends Komponent {
         System.out.println("obroty = " + obroty);
     }
 
-    /*public static void main(String[] args) {
-        Silnik s = new Silnik();
-        s.uruchom();
-        s.zwiekszObroty();
-        s.zatrzymaj();
-    }*/
+    public double getObroty() {
+        return obroty;
+    }
 }
