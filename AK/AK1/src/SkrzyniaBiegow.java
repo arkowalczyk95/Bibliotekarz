@@ -18,6 +18,14 @@ public class SkrzyniaBiegow extends Komponent {
         if (aktualnyBieg < 0) aktualnyBieg = 0;
     }
 
+    public int getAktualnyBieg() {
+        return aktualnyBieg;
+    }
+
+    public void setAktualnyBieg(int aktualnyBieg) {
+        this.aktualnyBieg = aktualnyBieg;
+    }
+
     public void obliczPrzelozenie() {
 
     }

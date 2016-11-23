@@ -33,22 +33,27 @@ public class Samochod {
 
     public void przyspiesz() {
         sil.zwiekszObroty();
+        if((kola.getPredkoscLiniowa() < predkoscMax) & (sil.isPar() == false)) kola.przyspiesz();
     }
 
     public void zwolnij() {
         sil.zmniejszObroty();
+        if((kola.getPredkoscLiniowa() > 0.0) & (sil.isPar2() == false)) kola.zwolnij();
+
     }
 
     public Silnik getSil() {
         return sil;
     }
 
-    public void biegPlus()  {
+    public void biegPlus() {
         skrzynia.zwieszBieg();
+        sil.spadekObrotow();
     }
 
     public void biegMinus() {
         skrzynia.zmniejszBieg();
+        sil.wzrostObrotow();
     }
 
     public SkrzyniaBiegow getSkrzynia() {
@@ -60,14 +65,18 @@ public class Samochod {
     }
 
     public void aktualnaPredkosc() {
+        kola.ustawObroty();
+            }
 
+    public Kolo getKola() {
+        return kola;
     }
 
     public static void main(String[] args) {
 
         Samochod s = new Samochod("srebrny", "KR0001", "punto", "fiat", 190,
                 new Silnik("silnik", 250, 1500, "fiat", 6000),
-                new SkrzyniaBiegow("skrzynia", 100, 2500, "fiat", 6),
+                new SkrzyniaBiegow("skrzynia", 100, 2500, "fiat", 5),
                 new Kolo("koło", 10.0, 400.0, "Pirelli", 24));
 
        /* JFrame frame = new JFrame("SamochodGUI");
