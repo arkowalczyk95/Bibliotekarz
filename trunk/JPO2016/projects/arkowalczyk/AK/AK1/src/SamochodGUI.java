@@ -21,16 +21,20 @@ public class SamochodGUI {
 
     public SamochodGUI() {
 
-        Samochod s = new Samochod("srebrny", "KR0001", "punto", "fiat", 190,
+        final Samochod s = new Samochod("srebrny", "KR0001", "punto", "fiat", 190,
                 new Silnik("silnik", 250, 1500, "fiat", 6000),
-                new SkrzyniaBiegow("skrzynia", 100, 2500, "fiat", 6),
-                new Kolo("koło", 10.0, 400.0, "Pirelli", 24));
+                new SkrzyniaBiegow("skrzynia", 100, 2500, "fiat", 5),
+                new Kolo("koło", 10.0, 400.0, "Pirelli", 0.6));
 
         włączButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 s.wlacz();
                 textField1.setText(Double.toString(s.getSil().getObroty()));
+                s.getSkrzynia().setAktualnyBieg(0);
+                textField2.setText(Integer.toString(s.getSkrzynia().getAktualnyBieg()));
+                s.getKola().setPredkoscLiniowa(0.0);
+                textField3.setText(Double.toString(s.getKola().getPredkoscLiniowa()));
             }
         });
         wyłączButton.addActionListener(new ActionListener() {
@@ -38,6 +42,10 @@ public class SamochodGUI {
             public void actionPerformed(ActionEvent e) {
                 s.wylacz();
                 textField1.setText(Double.toString(s.getSil().getObroty()));
+                s.getSkrzynia().setAktualnyBieg(0);
+                textField2.setText(Integer.toString(s.getSkrzynia().getAktualnyBieg()));
+                s.getKola().setPredkoscLiniowa(0.0);
+                textField3.setText(Double.toString(s.getKola().getPredkoscLiniowa()));
             }
         });
         zwiększButton.addActionListener(new ActionListener() {
@@ -45,6 +53,7 @@ public class SamochodGUI {
             public void actionPerformed(ActionEvent e) {
                 s.przyspiesz();
                 textField1.setText(Double.toString(s.getSil().getObroty()));
+                textField3.setText(Double.toString(s.getKola().getPredkoscLiniowa()));
             }
         });
         zmniejszButton.addActionListener(new ActionListener() {
@@ -52,9 +61,28 @@ public class SamochodGUI {
             public void actionPerformed(ActionEvent e) {
                 s.zwolnij();
                 textField1.setText(Double.toString(s.getSil().getObroty()));
+                textField3.setText(Double.toString(s.getKola().getPredkoscLiniowa()));
             }
         });
+
+        zwiększButton1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                s.biegPlus();
+                textField2.setText(Integer.toString(s.getSkrzynia().getAktualnyBieg()));
+                textField1.setText(Double.toString(s.getSil().getObroty()));
+            }
+        });
+        zmniejszButton1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                s.biegMinus();
+                textField2.setText(Integer.toString(s.getSkrzynia().getAktualnyBieg()));
+                textField1.setText(Double.toString(s.getSil().getObroty()));
+
+            }
+        });
+
     }
+
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("SamochodGUI");
