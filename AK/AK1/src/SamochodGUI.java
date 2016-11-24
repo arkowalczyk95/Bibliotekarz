@@ -17,8 +17,6 @@ public class SamochodGUI {
     private JButton włączButton;
     private JButton wyłączButton;
 
-    private Samochod samochod;
-
     public SamochodGUI() {
 
         final Samochod s = new Samochod("srebrny", "KR0001", "punto", "fiat", 190,
@@ -66,6 +64,7 @@ public class SamochodGUI {
         });
 
         zwiększButton1.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 s.biegPlus();
                 textField2.setText(Integer.toString(s.getSkrzynia().getAktualnyBieg()));
@@ -73,6 +72,7 @@ public class SamochodGUI {
             }
         });
         zmniejszButton1.addActionListener(new ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 s.biegMinus();
                 textField2.setText(Integer.toString(s.getSkrzynia().getAktualnyBieg()));
