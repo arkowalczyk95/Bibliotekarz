@@ -38,7 +38,7 @@ public class Samochod {
 
     public void zwolnij() {
         sil.zmniejszObroty();
-        if((kola.getPredkoscLiniowa() > 0.0) & (sil.isPar2() == false)) kola.zwolnij();
+        if((kola.getPredkoscLiniowa() > 0.0) & (!sil.isPar2() == false)) kola.zwolnij();
 
     }
 
@@ -61,7 +61,6 @@ public class Samochod {
     }
 
     public void obliczWage() {
-
     }
 
     public void aktualnaPredkosc() {
@@ -79,11 +78,11 @@ public class Samochod {
                 new SkrzyniaBiegow("skrzynia", 100, 2500, "fiat", 5),
                 new Kolo("koło", 10.0, 400.0, "Pirelli", 24));
 
-       /* JFrame frame = new JFrame("SamochodGUI");
+       JFrame frame = new JFrame("SamochodGUI");
         frame.setContentPane(new SamochodGUI().panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-        frame.setVisible(true);*/
+        frame.setVisible(true);
 
     }
 }
