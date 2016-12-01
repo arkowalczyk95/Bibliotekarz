@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 /**
  * Created by Administrator on 2016-11-03.
  */
-public class SamochodGUI {
+public class SamochodGUI implements Listener {
     public JPanel panel1;
     private JButton zwiększButton;
     private JButton zmniejszButton;
@@ -80,9 +80,12 @@ public class SamochodGUI {
 
             }
         });
-
+        s.start();
     }
 
+    public void zmiana()    {
+
+    }
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("SamochodGUI");
