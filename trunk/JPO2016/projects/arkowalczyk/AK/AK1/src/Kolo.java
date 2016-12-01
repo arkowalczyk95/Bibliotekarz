@@ -16,12 +16,12 @@ public class Kolo extends Komponent {
         predkoscLiniowa = (3.6 * 3.14 * srednica * obroty);// w km/h
     }
 
-    public void przyspiesz()    {
+    /*public void przyspiesz()    {
         predkoscLiniowa = predkoscLiniowa + 2.0;
     }
 
     public void zwolnij()   {   predkoscLiniowa = predkoscLiniowa - 2.0;}
-
+    */
     public void setPredkoscLiniowa(double predkoscLiniowa) {
         this.predkoscLiniowa = predkoscLiniowa;
     }
