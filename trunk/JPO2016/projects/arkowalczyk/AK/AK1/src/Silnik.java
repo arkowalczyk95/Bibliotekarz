@@ -21,21 +21,23 @@ public class Silnik extends Komponent {
         //System.out.println("obroty = " + obroty);
     }
 
-    public void zwiekszObroty() {
-        obroty = obroty + 100;
+    public double zwiekszObroty(double n) {
+        obroty = obroty + n;
         if (obroty > maxObroty) {
             obroty = maxObroty;
             par = true;
         }
+        return obroty;
         //System.out.println("obroty = " + obroty);
     }
 
-    public void zmniejszObroty() {
-        obroty = obroty - 100;
+    public double zmniejszObroty(double m) {
+        obroty = obroty - m;
         if (obroty < 800) {
             obroty = 800;
             par2 = true;
         }
+        return obroty;
         //System.out.println("obroty = " + obroty);
     }
 
