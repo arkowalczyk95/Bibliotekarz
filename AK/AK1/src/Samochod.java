@@ -32,13 +32,26 @@ public class Samochod {
     }
 
     public void przyspiesz() {
+        skrzynia.obliczPrzelozenie();
+        double przelozenie =  skrzynia.getAktualnePrzelozenie();
+
         sil.zwiekszObroty();
-        if((kola.getPredkoscLiniowa() < predkoscMax) & (sil.isPar() == false)) kola.przyspiesz();
+        double obroty = sil.getObroty();
+        double stala = 0.0006;
+        double przyspieszenie = przelozenie * obroty * stala;
+        if((kola.getPredkoscLiniowa() < predkoscMax) & (sil.isPar() == false)) kola.setPredkoscLiniowa(kola.getPredkoscLiniowa() + przyspieszenie);
+
     }
 
     public void zwolnij() {
+        skrzynia.obliczPrzelozenie();
+        double przelozenie =  skrzynia.getAktualnePrzelozenie();
         sil.zmniejszObroty();
-        if((kola.getPredkoscLiniowa() > 0.0) & (!sil.isPar2() == false)) kola.zwolnij();
+        double obroty = sil.getObroty();
+        double stala = 0.0006;
+        double przyspieszenie = przelozenie * obroty * stala;
+        if((kola.getPredkoscLiniowa() > 0.0) & (sil.isPar2() == false)) kola.setPredkoscLiniowa(kola.getPredkoscLiniowa() - przyspieszenie);
+        if(kola.getPredkoscLiniowa() < 0.0) kola.setPredkoscLiniowa(0.0);
 
     }
 

@@ -27,6 +27,23 @@ public class SkrzyniaBiegow extends Komponent {
     }
 
     public void obliczPrzelozenie() {
+        switch (aktualnyBieg) {
+            case 0: aktualnePrzelozenie = 0.0;
+                break;
+            case 1: aktualnePrzelozenie = 2.2;
+                break;
+            case 2: aktualnePrzelozenie = 1.7;
+                break;
+            case 3: aktualnePrzelozenie = 1.2;
+                break;
+            case 4: aktualnePrzelozenie = 0.9;
+                break;
+            case 5: aktualnePrzelozenie = 0.7;
+                break;
+        }
+    }
 
+    public double getAktualnePrzelozenie() {
+        return aktualnePrzelozenie;
     }
 }

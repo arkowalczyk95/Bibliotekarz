@@ -3,6 +3,7 @@ public class Silnik extends Komponent {
     private double obroty = 0;
     private boolean par;
     private boolean par2;
+
     public Silnik(String nazwa, double waga, double cena, String producent, double maxObroty) {
         super(nazwa, waga, cena, producent);
         this.maxObroty = maxObroty;
@@ -31,7 +32,7 @@ public class Silnik extends Komponent {
 
     public void zmniejszObroty() {
         obroty = obroty - 100;
-        if (obroty < 800)   {
+        if (obroty < 800) {
             obroty = 800;
             par2 = true;
         }
@@ -50,15 +51,15 @@ public class Silnik extends Komponent {
         this.obroty = obroty;
     }
 
+    public double getObroty() {
+        return obroty;
+    }
+
     public boolean isPar2() {
         return par2;
     }
 
     public boolean isPar() {
         return par;
-    }
-
-    public double getObroty() {
-        return obroty;
     }
 }
