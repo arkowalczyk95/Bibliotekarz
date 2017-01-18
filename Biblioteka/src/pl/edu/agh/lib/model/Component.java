@@ -54,6 +54,22 @@ public class Component {
     public String toString() {
         return id + " '" + author + "'" + " " + title;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Component component = (Component) o;
+
+        return id == component.id;
+
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
+    }
 }
 
 

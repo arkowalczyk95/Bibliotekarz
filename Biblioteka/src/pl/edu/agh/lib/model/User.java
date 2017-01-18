@@ -35,4 +35,20 @@ public class User {
     public String toString() {
         return id + " " + name + " " + surname;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        User user = (User) o;
+
+        return id == user.id;
+
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
+    }
 }

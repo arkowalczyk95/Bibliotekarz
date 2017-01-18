@@ -2,6 +2,7 @@ package pl.edu.agh.lib.model.database;
 
 import pl.edu.agh.lib.model.User;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,11 +15,14 @@ public class UserDatabase {
     public UserDatabase() {
         userList = new ArrayList<>();
     }
-    public void  addUser(User user)    {
+
+    public void addUser(User user) {
         userList.add(user);
     }
+
     public List<User> getUserList() {
         return userList;
     }
+
 }
 
