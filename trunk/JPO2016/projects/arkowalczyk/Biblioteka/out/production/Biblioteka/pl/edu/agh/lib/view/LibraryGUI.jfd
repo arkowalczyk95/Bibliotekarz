@@ -17,7 +17,7 @@ new FormModel {
 			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
 				name: "tabbedPane1"
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-					"$horizontalGroup": "par l {seq {space :p:21:p, comp scrollPane1:::p:154:p, space :0:236:x}, seq t {space ::140:x, comp loanButton:::p::p, space :p:185:p}, seq l {space :::p, par l {comp label3:::p:164:p, comp label2:::p:207:p}, space ::198:x}, seq t {space :::p, comp loanUserComboBox::::399:x, space :::p}, seq l {space :::p, comp loanBookComboBox::::399:x, space :::p}}"
+					"$horizontalGroup": "par l {seq {space :p:21:p, comp scrollPane1:::p:154:p, space :0:242:x}, seq t {space ::146:x, comp loanButton:::p::p, space :p:185:p}, seq l {space :::p, par l {comp label3:::p:164:p, comp label2:::p:207:p}, space ::204:x}, seq t {space :::p, comp loanUserComboBox::::405:x, space :::p}, seq l {space :::p, comp loanBookComboBox::::405:x, space :::p}}"
 					"$verticalGroup": "par l {seq l {space :::p, comp label2:::p::p, space :::p, comp loanBookComboBox:::p::p, space :p:94:p, comp label3:::p::p, space :::p, comp loanUserComboBox:::p::p, space :p:100:p, comp loanButton:::p::p, space :p:628:p, comp scrollPane1:::p::p, space :::x}}"
 				} ) {
 					name: "panel1"
@@ -46,7 +46,7 @@ new FormModel {
 					"title": "WYPOŻYCZENIA"
 				} )
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-					"$horizontalGroup": "par l {seq t {space ::162:x, comp returnButton:::p::p, space :p:183:p}, seq l {space :::p, par l {comp returnUserComboBox::::399:x, comp returnBookComboBox::::399:x, seq {par l {comp label4:::p:123:p, comp label5:::p:167:p}, space :0:232:x}}, space :::p}}"
+					"$horizontalGroup": "par l {seq t {space ::168:x, comp returnButton:::p::p, space :p:183:p}, seq l {space :::p, par l {comp returnUserComboBox::::405:x, comp returnBookComboBox::::405:x, seq {par l {comp label4:::p:123:p, comp label5:::p:167:p}, space :0:238:x}}, space :::p}}"
 					"$verticalGroup": "par l {seq l {space :::p, comp label4:::p::p, space :::p, comp returnUserComboBox:::p::p, space :p:96:p, comp label5:::p::p, space :::p, comp returnBookComboBox:::p::p, space :p:96:p, comp returnButton:::p::p, space :::x}}"
 				} ) {
 					name: "panel2"
@@ -72,7 +72,7 @@ new FormModel {
 					"title": "ZWROTY"
 				} )
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-					"$horizontalGroup": "par l {seq l {space :::p, par l {comp label6:::p::p, comp label10::l:p::p, seq {space :6:6:p, par l {comp label8::l:p::p, comp label11::l:p::p, comp label12::l:p::p, comp label13::l:p::p, comp label7::l:p::p, comp label9:::p::p}, space :p:35:p, par l {seq {par t:::p {comp bookTitleTextField::l::130:x, comp bookAuthorTextField::l::130:x, comp bookIdTextField::l::130:x, comp userNameTextField::l::130:x, comp userSurnameTextField::l::130:x}, space :p:50:p, par l {comp addUserButton:::p::p, comp addBookButton:::p::p}}, comp userIdTextField:::p:130:p}}}, space ::59:x}}"
+					"$horizontalGroup": "par l {seq l {space :::p, par l {comp label6:::p::p, comp label10::l:p::p, seq {space :6:6:p, par l {comp label8::l:p::p, comp label11::l:p::p, comp label12::l:p::p, comp label13::l:p::p, comp label7::l:p::p, comp label9:::p::p}, space :p:35:p, par l {seq {par t:::p {comp bookTitleTextField::l::130:x, comp bookAuthorTextField::l::130:x, comp bookIdTextField::l::130:x, comp userNameTextField::l::130:x, comp userSurnameTextField::l::130:x}, space :p:50:p, par l {comp addUserButton:::p::p, comp addBookButton:::p::p}}, comp userIdTextField:::p:130:p}}}, space ::65:x}}"
 					"$verticalGroup": "par l {seq l {space :::p, comp label6:::p::p, space u:::p, par b {comp label7::b:p::p, comp userIdTextField::b:p::p}, space :::p, par b {comp label8::b:p::p, comp userNameTextField::b:p::p, comp addUserButton::b:p::p}, space :::p, par b {comp userSurnameTextField::b:p::p, comp label9::b:p::p}, space :p:48:p, comp label10:::p::p, space u:::p, par t {comp label11:::p::p, comp bookIdTextField:::p::p}, space :::p, par b {comp bookAuthorTextField::b:p::p, comp label12::b:p::p, comp addBookButton::b:p::p}, space :::p, par l {comp bookTitleTextField:::p::p, comp label13::l:p::p}, space ::16:x}}"
 				} ) {
 					name: "panel3"
@@ -138,7 +138,7 @@ new FormModel {
 					"title": "DODAJ ELEMENT"
 				} )
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-					"$horizontalGroup": "par l {seq t {par t {seq l {par l {seq {space :::p, comp label15:::p:164:p}, seq l {space :p:25:p, comp deleteBookButton:::p::p, space :p:67:p, comp deleteUserButton:::p::p}}, space :0:84:x}, seq {space :::p, par t {comp deleteUserComboBox::::399:x, seq l {comp label14:::p:207:p, space :0:0:x}, comp deleteBookComboBox::t::399:x}}}, space :::p}}"
+					"$horizontalGroup": "par l {seq t {par t {seq l {par l {seq {space :::p, comp label15:::p:164:p}, seq l {space :p:25:p, comp deleteBookButton:::p::p, space :p:67:p, comp deleteUserButton:::p::p}}, space :0:90:x}, seq {space :::p, par t {comp deleteUserComboBox::::405:x, seq l {comp label14:::p:207:p, space :0:0:x}, comp deleteBookComboBox::t::405:x}}}, space :::p}}"
 					"$verticalGroup": "par l {seq l {space :::p, comp label14:::p::p, space :::p, comp deleteBookComboBox:::p::p, space :p:70:p, comp label15:::p::p, space u:::p, comp deleteUserComboBox:::p::p, space :p:30:p, par b {comp deleteBookButton::b:p::p, comp deleteUserButton::b:p::p}, space ::70:x}}"
 				} ) {
 					name: "panel4"

@@ -5,6 +5,7 @@
 package pl.edu.agh.lib.view;
 
 import java.awt.*;
+import java.awt.event.*;
 
 import pl.edu.agh.lib.controller.*;
 import pl.edu.agh.lib.model.Component;
@@ -108,6 +109,7 @@ public class LibraryGUI extends JPanel {
         bookTitleTextField.setText("");
     }
 
+
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
         // Generated using JFormDesigner Evaluation license - Arkadiusz Kowalczyk
@@ -188,9 +190,9 @@ public class LibraryGUI extends JPanel {
                         .addGroup(panel1Layout.createSequentialGroup()
                             .addGap(21, 21, 21)
                             .addComponent(scrollPane1, GroupLayout.PREFERRED_SIZE, 154, GroupLayout.PREFERRED_SIZE)
-                            .addGap(0, 236, Short.MAX_VALUE))
+                            .addGap(0, 242, Short.MAX_VALUE))
                         .addGroup(GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
-                            .addContainerGap(140, Short.MAX_VALUE)
+                            .addContainerGap(146, Short.MAX_VALUE)
                             .addComponent(loanButton)
                             .addGap(185, 185, 185))
                         .addGroup(panel1Layout.createSequentialGroup()
@@ -198,14 +200,14 @@ public class LibraryGUI extends JPanel {
                             .addGroup(panel1Layout.createParallelGroup()
                                 .addComponent(label3, GroupLayout.PREFERRED_SIZE, 164, GroupLayout.PREFERRED_SIZE)
                                 .addComponent(label2, GroupLayout.PREFERRED_SIZE, 207, GroupLayout.PREFERRED_SIZE))
-                            .addContainerGap(198, Short.MAX_VALUE))
+                            .addContainerGap(204, Short.MAX_VALUE))
                         .addGroup(GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
                             .addContainerGap()
-                            .addComponent(loanUserComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
+                            .addComponent(loanUserComboBox, GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE)
                             .addContainerGap())
                         .addGroup(panel1Layout.createSequentialGroup()
                             .addContainerGap()
-                            .addComponent(loanBookComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
+                            .addComponent(loanBookComboBox, GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE)
                             .addContainerGap())
                 );
                 panel1Layout.setVerticalGroup(
@@ -245,19 +247,19 @@ public class LibraryGUI extends JPanel {
                 panel2Layout.setHorizontalGroup(
                     panel2Layout.createParallelGroup()
                         .addGroup(GroupLayout.Alignment.TRAILING, panel2Layout.createSequentialGroup()
-                            .addContainerGap(162, Short.MAX_VALUE)
+                            .addContainerGap(168, Short.MAX_VALUE)
                             .addComponent(returnButton)
                             .addGap(183, 183, 183))
                         .addGroup(panel2Layout.createSequentialGroup()
                             .addContainerGap()
                             .addGroup(panel2Layout.createParallelGroup()
-                                .addComponent(returnUserComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
-                                .addComponent(returnBookComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
+                                .addComponent(returnUserComboBox, GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE)
+                                .addComponent(returnBookComboBox, GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE)
                                 .addGroup(panel2Layout.createSequentialGroup()
                                     .addGroup(panel2Layout.createParallelGroup()
                                         .addComponent(label4, GroupLayout.PREFERRED_SIZE, 123, GroupLayout.PREFERRED_SIZE)
                                         .addComponent(label5, GroupLayout.PREFERRED_SIZE, 167, GroupLayout.PREFERRED_SIZE))
-                                    .addGap(0, 232, Short.MAX_VALUE)))
+                                    .addGap(0, 238, Short.MAX_VALUE)))
                             .addContainerGap())
                 );
                 panel2Layout.setVerticalGroup(
@@ -343,7 +345,7 @@ public class LibraryGUI extends JPanel {
                                                 .addComponent(addUserButton)
                                                 .addComponent(addBookButton)))
                                         .addComponent(userIdTextField, GroupLayout.PREFERRED_SIZE, 130, GroupLayout.PREFERRED_SIZE))))
-                            .addContainerGap(59, Short.MAX_VALUE))
+                            .addContainerGap(65, Short.MAX_VALUE))
                 );
                 panel3Layout.setVerticalGroup(
                     panel3Layout.createParallelGroup()
@@ -414,15 +416,15 @@ public class LibraryGUI extends JPanel {
                                             .addComponent(deleteBookButton)
                                             .addGap(67, 67, 67)
                                             .addComponent(deleteUserButton)))
-                                    .addGap(0, 84, Short.MAX_VALUE))
+                                    .addGap(0, 90, Short.MAX_VALUE))
                                 .addGroup(panel4Layout.createSequentialGroup()
                                     .addContainerGap()
                                     .addGroup(panel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
-                                        .addComponent(deleteUserComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
+                                        .addComponent(deleteUserComboBox, GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE)
                                         .addGroup(GroupLayout.Alignment.LEADING, panel4Layout.createSequentialGroup()
                                             .addComponent(label14, GroupLayout.PREFERRED_SIZE, 207, GroupLayout.PREFERRED_SIZE)
                                             .addGap(0, 0, Short.MAX_VALUE))
-                                        .addComponent(deleteBookComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE))))
+                                        .addComponent(deleteBookComboBox, GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE))))
                             .addContainerGap())
                 );
                 panel4Layout.setVerticalGroup(
