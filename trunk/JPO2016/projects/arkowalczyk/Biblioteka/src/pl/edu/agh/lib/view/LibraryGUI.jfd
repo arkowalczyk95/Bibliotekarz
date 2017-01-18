@@ -17,8 +17,8 @@ new FormModel {
 			add( new FormContainer( "javax.swing.JTabbedPane", new FormLayoutManager( class javax.swing.JTabbedPane ) ) {
 				name: "tabbedPane1"
 				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-					"$horizontalGroup": "par l {seq {space :p:21:p, comp scrollPane1:::p:154:p, space :0:236:x}, seq t {space ::140:x, comp loanButton:::p::p, space :p:185:p}, seq l {space :::p, par l {comp loanBookComboBox::::405:x, seq {par l {comp label3:::p:164:p, comp label2:::p:207:p}, space ::198:x}}}, seq l {space :::p, comp loanUserComboBox::::399:x, space :::p}}"
-					"$verticalGroup": "par l {seq l {space :::p, comp label2:::p::p, space :::p, comp loanBookComboBox:::p::p, space :p:94:p, comp label3:::p::p, space u:::p, comp loanUserComboBox:::p::p, space :p:94:p, comp loanButton:::p::p, space :p:628:p, comp scrollPane1:::p::p, space :::x}}"
+					"$horizontalGroup": "par l {seq {space :p:21:p, comp scrollPane1:::p:154:p, space :0:236:x}, seq t {space ::140:x, comp loanButton:::p::p, space :p:185:p}, seq l {space :::p, par l {comp label3:::p:164:p, comp label2:::p:207:p}, space ::198:x}, seq t {space :::p, comp loanUserComboBox::::399:x, space :::p}, seq l {space :::p, comp loanBookComboBox::::399:x, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp label2:::p::p, space :::p, comp loanBookComboBox:::p::p, space :p:94:p, comp label3:::p::p, space :::p, comp loanUserComboBox:::p::p, space :p:100:p, comp loanButton:::p::p, space :p:628:p, comp scrollPane1:::p::p, space :::x}}"
 				} ) {
 					name: "panel1"
 					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
@@ -136,6 +136,36 @@ new FormModel {
 					} )
 				}, new FormLayoutConstraints( null ) {
 					"title": "DODAJ ELEMENT"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {seq t {par t {seq l {par l {seq {space :::p, comp label15:::p:164:p}, seq l {space :p:25:p, comp deleteBookButton:::p::p, space :p:67:p, comp deleteUserButton:::p::p}}, space :0:84:x}, seq {space :::p, par t {comp deleteUserComboBox::::399:x, seq l {comp label14:::p:207:p, space :0:0:x}, comp deleteBookComboBox::t::399:x}}}, space :::p}}"
+					"$verticalGroup": "par l {seq l {space :::p, comp label14:::p::p, space :::p, comp deleteBookComboBox:::p::p, space :p:70:p, comp label15:::p::p, space u:::p, comp deleteUserComboBox:::p::p, space :p:30:p, par b {comp deleteBookButton::b:p::p, comp deleteUserButton::b:p::p}, space ::70:x}}"
+				} ) {
+					name: "panel4"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"text": "Wybierz dostępną książkę:"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "deleteBookComboBox"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label15"
+						"text": "Wybierz użytkownika:"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "deleteUserComboBox"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "deleteBookButton"
+						"text": "Usuń książkę!"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "deleteUserButton"
+						"text": "Usuń użytkownika!"
+					} )
+				}, new FormLayoutConstraints( null ) {
+					"title": "USUŃ ELEMENT"
 				} )
 			} )
 		}, new FormLayoutConstraints( null ) {

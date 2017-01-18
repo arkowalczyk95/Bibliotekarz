@@ -26,7 +26,6 @@ public class OwnController implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        //libraryGUI.setReturnUserModel(userDatabase.getUserList());
         libraryGUI.setReturnBookModel(libraryGUI.getSelectedUserInReturn().getLoanedBooks());
     }
 }

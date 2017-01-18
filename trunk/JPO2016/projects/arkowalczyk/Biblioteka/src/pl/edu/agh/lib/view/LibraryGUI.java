@@ -35,6 +35,8 @@ public class LibraryGUI extends JPanel {
         returnUserComboBox.addActionListener(new OwnController(this, this.userDatabase, this.componentDatabase));
         addUserButton.addActionListener(new AddUserController(this, this.userDatabase));
         addBookButton.addActionListener(new AddBookController(this, this.componentDatabase));
+        deleteBookButton.addActionListener(new DeleteBookController(this, this.componentDatabase));
+        deleteUserButton.addActionListener(new DeleteUserController(this, this.userDatabase));
         initComboBoxes();
     }
 
@@ -55,6 +57,10 @@ public class LibraryGUI extends JPanel {
         return (Component) returnBookComboBox.getSelectedItem();
     }
 
+    public User getSelectedUserInDelete()   {return (User) deleteUserComboBox.getSelectedItem();}
+
+    public Component getSelectedBookInDelete()   {return (Component) deleteBookComboBox.getSelectedItem();}
+
     public void setReturnBookModel(List<Component> owned) {
         returnBookComboBox.setModel(new DefaultComboBoxModel<>(owned.toArray()));
     }
@@ -63,6 +69,8 @@ public class LibraryGUI extends JPanel {
         loanUserComboBox.setModel(new DefaultComboBoxModel<>(userDatabase.getUserList().toArray()));
         loanBookComboBox.setModel(new DefaultComboBoxModel<>(loanedController.getAvailableComponents().toArray()));
         returnUserComboBox.setModel(new DefaultComboBoxModel<>(userDatabase.getUserList().toArray()));
+        deleteUserComboBox.setModel(new DefaultComboBoxModel<>(userDatabase.getUserList().toArray()));
+        deleteBookComboBox.setModel(new DefaultComboBoxModel<>(componentDatabase.getDatabase().toArray()));
     }
 
     //Metody dodawania userów
@@ -135,6 +143,13 @@ public class LibraryGUI extends JPanel {
         bookAuthorTextField = new JTextField();
         bookTitleTextField = new JTextField();
         addBookButton = new JButton();
+        panel4 = new JPanel();
+        label14 = new JLabel();
+        deleteBookComboBox = new JComboBox();
+        label15 = new JLabel();
+        deleteUserComboBox = new JComboBox();
+        deleteBookButton = new JButton();
+        deleteUserButton = new JButton();
 
         //======== this ========
 
@@ -181,15 +196,16 @@ public class LibraryGUI extends JPanel {
                         .addGroup(panel1Layout.createSequentialGroup()
                             .addContainerGap()
                             .addGroup(panel1Layout.createParallelGroup()
-                                .addComponent(loanBookComboBox, GroupLayout.DEFAULT_SIZE, 405, Short.MAX_VALUE)
-                                .addGroup(panel1Layout.createSequentialGroup()
-                                    .addGroup(panel1Layout.createParallelGroup()
-                                        .addComponent(label3, GroupLayout.PREFERRED_SIZE, 164, GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(label2, GroupLayout.PREFERRED_SIZE, 207, GroupLayout.PREFERRED_SIZE))
-                                    .addContainerGap(198, Short.MAX_VALUE))))
-                        .addGroup(panel1Layout.createSequentialGroup()
+                                .addComponent(label3, GroupLayout.PREFERRED_SIZE, 164, GroupLayout.PREFERRED_SIZE)
+                                .addComponent(label2, GroupLayout.PREFERRED_SIZE, 207, GroupLayout.PREFERRED_SIZE))
+                            .addContainerGap(198, Short.MAX_VALUE))
+                        .addGroup(GroupLayout.Alignment.TRAILING, panel1Layout.createSequentialGroup()
                             .addContainerGap()
                             .addComponent(loanUserComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
+                            .addContainerGap())
+                        .addGroup(panel1Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(loanBookComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
                             .addContainerGap())
                 );
                 panel1Layout.setVerticalGroup(
@@ -201,9 +217,9 @@ public class LibraryGUI extends JPanel {
                             .addComponent(loanBookComboBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
                             .addGap(94, 94, 94)
                             .addComponent(label3)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(loanUserComboBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-                            .addGap(94, 94, 94)
+                            .addGap(100, 100, 100)
                             .addComponent(loanButton)
                             .addGap(628, 628, 628)
                             .addComponent(scrollPane1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
@@ -366,6 +382,68 @@ public class LibraryGUI extends JPanel {
                 );
             }
             tabbedPane1.addTab("DODAJ ELEMENT", panel3);
+
+            //======== panel4 ========
+            {
+
+                //---- label14 ----
+                label14.setText("Wybierz dost\u0119pn\u0105 ksi\u0105\u017ck\u0119:");
+
+                //---- label15 ----
+                label15.setText("Wybierz u\u017cytkownika:");
+
+                //---- deleteBookButton ----
+                deleteBookButton.setText("Usu\u0144 ksi\u0105\u017ck\u0119!");
+
+                //---- deleteUserButton ----
+                deleteUserButton.setText("Usu\u0144 u\u017cytkownika!");
+
+                GroupLayout panel4Layout = new GroupLayout(panel4);
+                panel4.setLayout(panel4Layout);
+                panel4Layout.setHorizontalGroup(
+                    panel4Layout.createParallelGroup()
+                        .addGroup(GroupLayout.Alignment.TRAILING, panel4Layout.createSequentialGroup()
+                            .addGroup(panel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                .addGroup(GroupLayout.Alignment.LEADING, panel4Layout.createSequentialGroup()
+                                    .addGroup(panel4Layout.createParallelGroup()
+                                        .addGroup(panel4Layout.createSequentialGroup()
+                                            .addContainerGap()
+                                            .addComponent(label15, GroupLayout.PREFERRED_SIZE, 164, GroupLayout.PREFERRED_SIZE))
+                                        .addGroup(panel4Layout.createSequentialGroup()
+                                            .addGap(25, 25, 25)
+                                            .addComponent(deleteBookButton)
+                                            .addGap(67, 67, 67)
+                                            .addComponent(deleteUserButton)))
+                                    .addGap(0, 84, Short.MAX_VALUE))
+                                .addGroup(panel4Layout.createSequentialGroup()
+                                    .addContainerGap()
+                                    .addGroup(panel4Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                                        .addComponent(deleteUserComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE)
+                                        .addGroup(GroupLayout.Alignment.LEADING, panel4Layout.createSequentialGroup()
+                                            .addComponent(label14, GroupLayout.PREFERRED_SIZE, 207, GroupLayout.PREFERRED_SIZE)
+                                            .addGap(0, 0, Short.MAX_VALUE))
+                                        .addComponent(deleteBookComboBox, GroupLayout.DEFAULT_SIZE, 399, Short.MAX_VALUE))))
+                            .addContainerGap())
+                );
+                panel4Layout.setVerticalGroup(
+                    panel4Layout.createParallelGroup()
+                        .addGroup(panel4Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addComponent(label14)
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(deleteBookComboBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                            .addGap(70, 70, 70)
+                            .addComponent(label15)
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(deleteUserComboBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                            .addGap(30, 30, 30)
+                            .addGroup(panel4Layout.createParallelGroup(GroupLayout.Alignment.BASELINE)
+                                .addComponent(deleteBookButton)
+                                .addComponent(deleteUserButton))
+                            .addContainerGap(70, Short.MAX_VALUE))
+                );
+            }
+            tabbedPane1.addTab("USU\u0143 ELEMENT", panel4);
         }
 
         GroupLayout layout = new GroupLayout(this);
@@ -427,6 +505,13 @@ public class LibraryGUI extends JPanel {
     private JTextField bookAuthorTextField;
     private JTextField bookTitleTextField;
     private JButton addBookButton;
+    private JPanel panel4;
+    private JLabel label14;
+    private JComboBox deleteBookComboBox;
+    private JLabel label15;
+    private JComboBox deleteUserComboBox;
+    private JButton deleteBookButton;
+    private JButton deleteUserButton;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 
 

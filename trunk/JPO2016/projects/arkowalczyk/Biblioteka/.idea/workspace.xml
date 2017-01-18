@@ -21,6 +21,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/app/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AddUserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddUserController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,33 +57,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryGUI.jfd" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LibraryGUI.jfd" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.jfd">
           <provider selected="true" editor-type-id="JFormDesigner">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Component.java">
+      <file leaf-file-name="LoanController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+            <state relative-caret-position="96">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="48" />
               <folding>
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/User.java">
+      <file leaf-file-name="DeleteBookController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteBookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="291">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LibraryGUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
+              <folding>
+                <element signature="docComment;class#LibraryGUI#0" expanded="false" />
+                <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
+                <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
+                <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
+                <element signature="e#4041#4128#0" expanded="false" />
+                <marker date="1484763386292" expanded="true" signature="4041:24918" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1484763386292" expanded="false" signature="24930:26467" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteUserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OwnController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,9 +161,7 @@
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnedController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanController.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/Employee.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/exception/FieldIsEmptyException.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/exception/UserFieldIsEmptyException.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/exception/UserEmptyException.java" />
@@ -123,6 +172,10 @@
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddUserController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddBookController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.jfd" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteBookController.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteUserController.java" />
       </list>
     </option>
   </component>
@@ -213,80 +266,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Biblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Biblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Biblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Biblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Biblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Biblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -616,7 +595,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -630,7 +609,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -669,18 +648,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="0" propertiesWidth="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -690,9 +657,9 @@
             <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
             <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
             <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="e#3427#3514#0" expanded="false" />
-            <marker date="1484761313972" expanded="true" signature="3427:20016" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484761313972" expanded="false" signature="20028:21322" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <element signature="e#4041#4128#0" expanded="false" />
+            <marker date="1484763386292" expanded="true" signature="4041:24918" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1484763386292" expanded="false" signature="24930:26467" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -740,9 +707,9 @@
             <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
             <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
             <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="e#3427#3514#0" expanded="false" />
-            <marker date="1484761313972" expanded="true" signature="3427:20016" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484761313972" expanded="false" signature="20028:21322" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <element signature="e#4041#4128#0" expanded="false" />
+            <marker date="1484763386292" expanded="true" signature="4041:24918" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1484763386292" expanded="false" signature="24930:26467" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -790,9 +757,9 @@
             <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
             <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
             <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="e#3427#3514#0" expanded="false" />
-            <marker date="1484761313972" expanded="true" signature="3427:20016" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484761313972" expanded="false" signature="20028:21322" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <element signature="e#4041#4128#0" expanded="false" />
+            <marker date="1484763386292" expanded="true" signature="4041:24918" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1484763386292" expanded="false" signature="24930:26467" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -841,9 +808,9 @@
             <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
             <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
             <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="e#3427#3514#0" expanded="false" />
-            <marker date="1484761313972" expanded="true" signature="3427:20016" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484761313972" expanded="false" signature="20028:21322" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <element signature="e#4041#4128#0" expanded="false" />
+            <marker date="1484763386292" expanded="true" signature="4041:24918" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1484763386292" expanded="false" signature="24930:26467" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -874,14 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Book.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -895,14 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="605" column="23" selection-start-line="605" selection-start-column="23" selection-end-line="605" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -949,55 +900,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/UserDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="e#3427#3514#0" expanded="false" />
-            <marker date="1484761313972" expanded="true" signature="3427:20016" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484761313972" expanded="false" signature="20028:21322" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,16 +921,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddBookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1034,9 +931,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/app/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.jfd">
       <provider selected="true" editor-type-id="JFormDesigner">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
+          <folding>
+            <element signature="docComment;class#LibraryGUI#0" expanded="false" />
+            <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
+            <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
+            <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
+            <element signature="e#4041#4128#0" expanded="false" />
+            <marker date="1484763386292" expanded="true" signature="4041:24918" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1484763386292" expanded="false" signature="24930:26467" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
