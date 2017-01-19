@@ -2,7 +2,6 @@ package pl.edu.agh.lib.model.database;
 
 import pl.edu.agh.lib.model.User;
 
-import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -10,7 +10,6 @@ import java.util.List;
  */
 public class ComponentDatabase {
 
-    private int maxBooksAmount = 100;
     private List<Component> database;
 
     public ComponentDatabase() {
