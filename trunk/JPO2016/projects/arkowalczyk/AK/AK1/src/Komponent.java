@@ -17,6 +17,8 @@ public abstract class Komponent {
         return nazwa;
     }
 
+
+
     public double getWaga() {
 
         return waga;
