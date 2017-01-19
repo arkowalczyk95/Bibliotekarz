@@ -87,7 +87,7 @@ public class LibraryGUI extends JPanel {
         return userSurnameTextField;
     }
 
-    //Metody dodawania userów i książek
+    //Metody dodawania książek
     public JTextField getBookIdTextField() {
         return bookIdTextField;
     }

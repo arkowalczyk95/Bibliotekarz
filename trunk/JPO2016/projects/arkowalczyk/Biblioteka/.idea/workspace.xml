@@ -15,30 +15,28 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Biblioteka" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/app/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="339">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -47,49 +45,34 @@
         <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding>
                 <element signature="docComment;class#LibraryGUI#0" expanded="false" />
-                <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
-                <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
                 <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-                <element signature="e#4067#4154#0" expanded="false" />
-                <marker date="1484777370569" expanded="true" signature="4067:24944" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1484777370569" expanded="false" signature="24956:26493" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <element signature="e#4058#4145#0" expanded="false" />
+                <marker date="1484826074249" expanded="true" signature="4058:24935" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1484826074249" expanded="false" signature="24947:26484" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LibraryGUI.jfd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LoginGUI.java">
+      <file leaf-file-name="LoanedController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanedController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-              <folding>
-                <element signature="e#711#712#0" expanded="true" />
-                <marker date="1484773730447" expanded="false" signature="840:5242" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1484773730447" expanded="false" signature="5254:5704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-              </folding>
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoginController.java">
+      <file leaf-file-name="Component.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Component.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,12 +80,46 @@
       <file leaf-file-name="StartWindowGUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/StartWindowGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+            <state relative-caret-position="143">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <marker date="1484774371567" expanded="true" signature="1400:5139" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1484774371567" expanded="false" signature="5151:5514" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#initComponents#0;class#StartWindowGUI#0" expanded="false" />
+                <marker date="1484819992546" expanded="true" signature="1236:4975" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1484819992546" expanded="true" signature="4987:5350" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDatabase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/UserDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="58" column="64" lean-forward="true" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComponentDatabase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/ComponentDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,6 +130,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
@@ -130,26 +148,19 @@
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/Book.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/Library.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/Library.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/ComponentDatabase.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanBookController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanUserController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnUserController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnBookController.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanedController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnedController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnController.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/exception/FieldIsEmptyException.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/exception/UserFieldIsEmptyException.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/exception/UserEmptyException.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/exception/EmptyFieldException.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/UserDatabase.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/User.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddUserController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddBookController.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteBookController.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteUserController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/StartWindowGUI.jfd" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/Component.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/EmployeeDatabase.java" />
@@ -157,32 +168,37 @@
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/LoginGUI.jfd" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/RegisterGUI.jfd" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/LoginGUI.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/StartWindowGUI.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/Employee.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/RegisterController.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LogoutController.java" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.jfd" />
-        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/UMLDiagram.puml" />
+        <option value="$PROJECT_DIR$/src/uml.puml" />
         <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/app/App.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteBookController.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteUserController.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanController.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/ComponentDatabase.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/UserDatabase.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/view/StartWindowGUI.java" />
+        <option value="$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanedController.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -200,14 +216,9 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Biblioteka" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Biblioteka" />
@@ -280,6 +291,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biblioteka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Biblioteka" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -309,13 +346,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Biblioteka" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration default="false" name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -362,9 +400,10 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -374,7 +413,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -382,7 +421,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -407,7 +450,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -434,6 +481,136 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -450,6 +627,14 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -462,27 +647,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -511,6 +675,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
@@ -546,6 +719,12 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -574,32 +753,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
       <envs />
-      <properties />
-      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <list size="2">
@@ -612,6 +779,30 @@
         <item index="1" class="java.lang.String" itemvalue="Application.User" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -627,39 +818,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483565660287</updated>
+      <workItem from="1484819259876" duration="9206000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9206000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18092105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17981073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24743778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -674,10 +886,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LoginGUI.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -686,315 +906,577 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="docComment;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="e#4067#4154#0" expanded="false" />
-            <marker date="1484777370569" expanded="true" signature="4067:24944" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484777370569" expanded="false" signature="24956:26493" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/ComponentDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="docComment;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="e#4067#4154#0" expanded="false" />
-            <marker date="1484777370569" expanded="true" signature="4067:24944" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484777370569" expanded="false" signature="24956:26493" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Position.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.form" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnUserController.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanBookController.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanUserController.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnBookController.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/ComponentDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnedController.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Book.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/JDK/src.zip!/javax/swing/JOptionPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="605" column="23" selection-start-line="605" selection-start-column="23" selection-end-line="605" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/exception/UserFieldIsEmptyException.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/exception/UserEmptyException.java" />
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/exception/EmptyFieldException.java" />
     <entry file="jar://C:/Program Files (x86)/Java/JDK/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files (x86)/Java/JDK/src.zip!/javax/swing/AbstractButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="2347" column="0" selection-start-line="2347" selection-start-column="0" selection-end-line="2347" selection-end-column="0" />
+          <caret line="2347" column="0" lean-forward="false" selection-start-line="2347" selection-start-column="0" selection-end-line="2347" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnController.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LoginGUI.jfd" />
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LogoutController.java" />
+    <entry file="file://$PROJECT_DIR$/src/UMLDiagram.puml" />
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/UML.puml" />
+    <entry file="file://$PROJECT_DIR$/src/uml.puml" />
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteBookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="-27">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/DeleteUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/StartWindowGUI.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/UserDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanedController.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/OwnController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/ReturnController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddBookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/EmployeeDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="23" />
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="169">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LoginGUI.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/RegisterGUI.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/RegisterController.java">
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/EmployeeDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="21" column="66" lean-forward="false" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/RegisterGUI.java">
+    <entry file="uml://JAVA/pl.edu.agh.lib">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.edu.agh.lib</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">pl.edu.agh.lib.controller</node>
+            <node x="194.0" y="212.0">pl.edu.agh.lib.app</node>
+            <node x="-106.0" y="190.0">pl.edu.agh.lib.view</node>
+            <node x="238.0" y="100.0">pl.edu.agh.lib.model</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pl.edu.agh.lib.view" target="pl.edu.agh.lib.view">
+              <point x="0.0" y="0.0" />
+              <point x="-54.5" y="165.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.controller" target="pl.edu.agh.lib.model">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.controller" target="pl.edu.agh.lib.view">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.view" target="pl.edu.agh.lib.controller">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.app" target="pl.edu.agh.lib.view">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.model" target="pl.edu.agh.lib.model">
+              <point x="0.0" y="0.0" />
+              <point x="294.5" y="75.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-144.5" y="96.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.edu.agh.lib</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">pl.edu.agh.lib.controller</node>
+            <node x="194.0" y="212.0">pl.edu.agh.lib.app</node>
+            <node x="-106.0" y="190.0">pl.edu.agh.lib.view</node>
+            <node x="238.0" y="100.0">pl.edu.agh.lib.model</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pl.edu.agh.lib.view" target="pl.edu.agh.lib.view">
+              <point x="0.0" y="0.0" />
+              <point x="-54.5" y="165.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.controller" target="pl.edu.agh.lib.model">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.controller" target="pl.edu.agh.lib.view">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.view" target="pl.edu.agh.lib.controller">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.app" target="pl.edu.agh.lib.view">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.model" target="pl.edu.agh.lib.model">
+              <point x="0.0" y="0.0" />
+              <point x="294.5" y="75.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-144.0" y="96.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pl.edu.agh.lib.app">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.edu.agh.lib.app</OriginalElement>
+          <nodes>
+            <node x="" y="">pl.edu.agh.lib.app.App</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="33.0" y="14.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pl.edu.agh.lib.controller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.edu.agh.lib.controller</OriginalElement>
+          <nodes>
+            <node x="" y="">pl.edu.agh.lib.controller.OwnController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.RegisterController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.AddBookController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.LoanController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.LoanedController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.DeleteUserController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.DeleteBookController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.LoginController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.AddUserController</node>
+            <node x="" y="">pl.edu.agh.lib.controller.ReturnController</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="180.0" y="482.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/AddBookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/JDK/src.zip!/javax/swing/JOptionPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="312" column="13" lean-forward="false" selection-start-line="312" selection-start-column="13" selection-end-line="312" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="126">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LogoutController.java" />
-    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
+    <entry file="uml://JAVA/pl.edu.agh.lib.model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.edu.agh.lib.model</OriginalElement>
+          <nodes>
+            <node x="305.0" y="0.0">pl.edu.agh.lib.model.Component</node>
+            <node x="259.0" y="297.0">pl.edu.agh.lib.model.database</node>
+            <node x="0.0" y="297.0">pl.edu.agh.lib.model.Employee</node>
+            <node x="0.0" y="0.0">pl.edu.agh.lib.model.User</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pl.edu.agh.lib.model.database" target="pl.edu.agh.lib.model.Component">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.model.database" target="pl.edu.agh.lib.model.Employee">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.model.database" target="pl.edu.agh.lib.model.User">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.model.User" target="pl.edu.agh.lib.model.Component">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-168.0" y="156.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pl.edu.agh.lib.model.database">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.edu.agh.lib.model.database</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">pl.edu.agh.lib.model.database.ComponentDatabase</node>
+            <node x="0.0" y="142.0">pl.edu.agh.lib.model.database.EmployeeDatabase</node>
+            <node x="0.0" y="284.0">pl.edu.agh.lib.model.database.UserDatabase</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-202.0" y="216.0" />
+          <SelectedNodes>
+            <node>pl.edu.agh.lib.model.database.ComponentDatabase</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.edu.agh.lib.app</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">pl.edu.agh.lib.app.App</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-241.0" y="22.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/pl.edu.agh.lib.view">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>pl.edu.agh.lib.view</OriginalElement>
+          <nodes>
+            <node x="541.0" y="1243.0">pl.edu.agh.lib.view.LoginGUI</node>
+            <node x="0.0" y="1243.0">pl.edu.agh.lib.view.RegisterGUI</node>
+            <node x="1022.0" y="1243.0">pl.edu.agh.lib.view.StartWindowGUI</node>
+            <node x="0.0" y="0.0">pl.edu.agh.lib.view.LibraryGUI</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="pl.edu.agh.lib.view.StartWindowGUI" target="pl.edu.agh.lib.view.LoginGUI">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="pl.edu.agh.lib.view.StartWindowGUI" target="pl.edu.agh.lib.view.RegisterGUI">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="330.85714285714283" y="691.8571428571429" />
+          <SelectedNodes>
+            <node>pl.edu.agh.lib.view.LoginGUI</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/JDK/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="164">
+          <caret line="144" column="12" lean-forward="false" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/RegisterGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
-            <element signature="docComment;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#setReturnBookModel#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#eraseTextFields#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
-            <element signature="e#4067#4154#0" expanded="false" />
-            <marker date="1484777370569" expanded="true" signature="4067:24944" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484777370569" expanded="false" signature="24956:26493" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <element signature="method#initComponents#0;class#RegisterGUI#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/ComponentDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LoginGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state relative-caret-position="109">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#711#712#0" expanded="true" />
-            <marker date="1484773730447" expanded="false" signature="840:5242" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <element signature="method#initComponents#0;class#LoginGUI#0" expanded="false" />
+            <element signature="e#1267#1291#0" expanded="false" />
+            <marker date="1484773730447" expanded="true" signature="840:5242" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
             <marker date="1484773730447" expanded="false" signature="5254:5704" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/RegisterGUI.jfd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/StartWindowGUI.jfd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="58" column="64" lean-forward="true" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/model/database/UserDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/StartWindowGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+        <state relative-caret-position="143">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1484774371567" expanded="true" signature="1400:5139" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1484774371567" expanded="false" signature="5151:5514" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#initComponents#0;class#StartWindowGUI#0" expanded="false" />
+            <marker date="1484819992546" expanded="true" signature="1236:4975" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1484819992546" expanded="true" signature="4987:5350" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/app/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="339">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/view/LibraryGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding>
+            <element signature="docComment;class#LibraryGUI#0" expanded="false" />
+            <element signature="method#initComponents#0;class#LibraryGUI#0" expanded="false" />
+            <element signature="e#4058#4145#0" expanded="false" />
+            <marker date="1484826074249" expanded="true" signature="4058:24935" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1484826074249" expanded="false" signature="24947:26484" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/edu/agh/lib/controller/LoanedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

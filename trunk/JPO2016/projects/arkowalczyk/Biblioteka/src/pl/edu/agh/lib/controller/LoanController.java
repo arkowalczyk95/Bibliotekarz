@@ -1,7 +1,5 @@
 package pl.edu.agh.lib.controller;
 
-import pl.edu.agh.lib.app.App;
-import pl.edu.agh.lib.model.User;
 import pl.edu.agh.lib.model.database.ComponentDatabase;
 import pl.edu.agh.lib.model.database.UserDatabase;
 import pl.edu.agh.lib.view.LibraryGUI;
