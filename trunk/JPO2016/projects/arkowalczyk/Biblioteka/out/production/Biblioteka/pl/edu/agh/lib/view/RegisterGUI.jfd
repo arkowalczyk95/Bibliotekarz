@@ -1,0 +1,52 @@
+JFDML JFormDesigner: "5.2.5.1.342" Java: "1.8.0_112-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :::p, par t {seq l {comp label1:::p::p, space ::154:x}, seq l {comp registerButton:::p::p, space :0:0:x}}}, seq t {par l {comp label3::l:p::p, comp label4::l:p::p, comp label5::l:p::p}, space ::31:x, par l {seq t {comp regLoginField:::p:130:p, space :p:32:p}, seq {par l {comp regPassField:::p:130:p, comp regPassAgainField:::p:130:p}, space :::p}}}}"
+				"$verticalGroup": "par l {seq l {space :::p, comp label1:::p::p, space u:::p, par b {comp label3::b:p::p, comp regLoginField::b:p::p}, space s:::p, par b {comp label4::b:p::p, comp regPassField::b:p::p}, space :p:22:p, par b {comp label5::b:p::p, comp regPassAgainField::b:p::p}, space :p:29:p, comp registerButton:::p::p, space ::38:x}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Zarejestruj się"
+					"font": new java.awt.Font( "Trebuchet MS", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Login:"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "regLoginField"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Hasło:"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Powtórz hasło:"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "registerButton"
+					"text": "Zarejestruj"
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "regPassField"
+				} )
+				add( new FormComponent( "javax.swing.JPasswordField" ) {
+					name: "regPassAgainField"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 270, 250 )
+		} )
+	}
+}
