@@ -1,0 +1,37 @@
+JFDML JFormDesigner: "5.2.5.1.342" Java: "1.8.0_112-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :::p, par l {seq t {space :0:1:x, comp label1:::p::p}, seq {par l {comp startLoginButton::l:p::p, comp startRegisterButton::l:p::p}, space :0:11:x}}, space :::p}}"
+				"$verticalGroup": "par l {seq l {space :::p, comp label1:::p::p, space u:::p, comp startLoginButton:::p::p, space s:::p, comp startRegisterButton:::p::p, space ::21:x}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Witaj w pracy!"
+					"font": new java.awt.Font( "Trebuchet MS", 1, 16 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "startLoginButton"
+					"text": "Zaloguj się "
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "startLoginButtonActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "startRegisterButton"
+					"text": "Zarejestruj się"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "startRegisterButtonActionPerformed", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 125, 140 )
+		} )
+	}
+}

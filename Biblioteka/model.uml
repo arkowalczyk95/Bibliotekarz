@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pl.edu.agh.lib.model</OriginalElement>
+  <nodes>
+    <node x="305.0" y="0.0">pl.edu.agh.lib.model.Component</node>
+    <node x="259.0" y="297.0">pl.edu.agh.lib.model.database</node>
+    <node x="0.0" y="297.0">pl.edu.agh.lib.model.Employee</node>
+    <node x="0.0" y="0.0">pl.edu.agh.lib.model.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pl.edu.agh.lib.model.database" target="pl.edu.agh.lib.model.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.edu.agh.lib.model.database" target="pl.edu.agh.lib.model.Employee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.edu.agh.lib.model.database" target="pl.edu.agh.lib.model.User">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="pl.edu.agh.lib.model.User" target="pl.edu.agh.lib.model.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="106.0" y="148.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
